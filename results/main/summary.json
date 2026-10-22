@@ -1,0 +1,465 @@
+{
+  "unique_puzzles": 10,
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "episodes": 60,
+  "trials": [
+    {
+      "condition": "baseline",
+      "seed": 17,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 4.2,
+      "mean_output_tokens": 26.5,
+      "mean_inference_seconds": 1.4919425664469599,
+      "invalid_proposal_rate": 0.8571428571428571,
+      "letter_conflict_rate": 0.16666666666666666,
+      "terminal_error_rate": 1
+    },
+    {
+      "condition": "baseline",
+      "seed": 42,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 4.1,
+      "mean_output_tokens": 30.1,
+      "mean_inference_seconds": 1.5566022542770952,
+      "invalid_proposal_rate": 0.8536585365853658,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 1
+    },
+    {
+      "condition": "baseline",
+      "seed": 2026,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 3.3,
+      "mean_output_tokens": 18.7,
+      "mean_inference_seconds": 1.1639904209878296,
+      "invalid_proposal_rate": 0.9696969696969697,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 1
+    },
+    {
+      "condition": "letter_consistency",
+      "seed": 17,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 3.5,
+      "mean_output_tokens": 25.5,
+      "mean_inference_seconds": 1.431287587666884,
+      "invalid_proposal_rate": 0.8857142857142857,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 1
+    },
+    {
+      "condition": "letter_consistency",
+      "seed": 42,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 4.3,
+      "mean_output_tokens": 36.3,
+      "mean_inference_seconds": 1.8556389416567982,
+      "invalid_proposal_rate": 0.8372093023255814,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 1
+    },
+    {
+      "condition": "letter_consistency",
+      "seed": 2026,
+      "puzzles": 10,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 3.3,
+      "mean_output_tokens": 27.9,
+      "mean_inference_seconds": 1.4423715713433922,
+      "invalid_proposal_rate": 0.9696969696969697,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 1
+    }
+  ],
+  "conditions": {
+    "baseline": {
+      "word_accuracy": {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "sample_variance": 0.0,
+        "trial_values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "character_accuracy": {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "sample_variance": 0.0,
+        "trial_values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact_match": {
+        "mean": 0,
+        "sample_sd": 0.0,
+        "sample_variance": 0,
+        "trial_values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mean_calls": {
+        "mean": 3.8666666666666667,
+        "sample_sd": 0.4932882862316248,
+        "sample_variance": 0.2433333333333334,
+        "trial_values": [
+          4.2,
+          4.1,
+          3.3
+        ]
+      },
+      "mean_output_tokens": {
+        "mean": 25.1,
+        "sample_sd": 5.827520913733387,
+        "sample_variance": 33.960000000000015,
+        "trial_values": [
+          26.5,
+          30.1,
+          18.7
+        ]
+      },
+      "mean_inference_seconds": {
+        "mean": 1.4041784139039615,
+        "sample_sd": 0.21050634851087635,
+        "sample_variance": 0.044312922763382535,
+        "trial_values": [
+          1.4919425664469599,
+          1.5566022542770952,
+          1.1639904209878296
+        ]
+      },
+      "invalid_proposal_rate": {
+        "mean": 0.8934994544750642,
+        "sample_sd": 0.06601197707182561,
+        "sample_variance": 0.00435758111693123,
+        "trial_values": [
+          0.8571428571428571,
+          0.8536585365853658,
+          0.9696969696969697
+        ]
+      },
+      "letter_conflict_rate": {
+        "mean": 0.05555555555555555,
+        "sample_sd": 0.09622504486493762,
+        "sample_variance": 0.009259259259259259,
+        "trial_values": [
+          0.16666666666666666,
+          0.0,
+          0.0
+        ]
+      },
+      "terminal_error_rate": {
+        "mean": 1,
+        "sample_sd": 0.0,
+        "sample_variance": 0,
+        "trial_values": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "letter_consistency": {
+      "word_accuracy": {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "sample_variance": 0.0,
+        "trial_values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "character_accuracy": {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "sample_variance": 0.0,
+        "trial_values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "exact_match": {
+        "mean": 0,
+        "sample_sd": 0.0,
+        "sample_variance": 0,
+        "trial_values": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mean_calls": {
+        "mean": 3.6999999999999997,
+        "sample_sd": 0.529150262212918,
+        "sample_variance": 0.27999999999999997,
+        "trial_values": [
+          3.5,
+          4.3,
+          3.3
+        ]
+      },
+      "mean_output_tokens": {
+        "mean": 29.9,
+        "sample_sd": 5.670978751503129,
+        "sample_variance": 32.15999999999998,
+        "trial_values": [
+          25.5,
+          36.3,
+          27.9
+        ]
+      },
+      "mean_inference_seconds": {
+        "mean": 1.5764327002223582,
+        "sample_sd": 0.2418632002093237,
+        "sample_variance": 0.058497807615495404,
+        "trial_values": [
+          1.431287587666884,
+          1.8556389416567982,
+          1.4423715713433922
+        ]
+      },
+      "invalid_proposal_rate": {
+        "mean": 0.8975401859122789,
+        "sample_sd": 0.0670308469139215,
+        "sample_variance": 0.0044931344379975785,
+        "trial_values": [
+          0.8857142857142857,
+          0.8372093023255814,
+          0.9696969696969697
+        ]
+      },
+      "letter_conflict_rate": {
+        "mean": 0.0,
+        "sample_sd": 0.0,
+        "sample_variance": 0.0,
+        "trial_values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "terminal_error_rate": {
+        "mean": 1,
+        "sample_sd": 0.0,
+        "sample_variance": 0,
+        "trial_values": [
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "paired_differences": [
+    {
+      "seed": 17,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": -0.7000000000000002,
+      "mean_output_tokens": -1.0,
+      "mean_inference_seconds": -0.06065497878007586,
+      "invalid_proposal_rate": 0.02857142857142858,
+      "letter_conflict_rate": -0.16666666666666666,
+      "terminal_error_rate": 0
+    },
+    {
+      "seed": 42,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 0.20000000000000018,
+      "mean_output_tokens": 6.199999999999996,
+      "mean_inference_seconds": 0.299036687379703,
+      "invalid_proposal_rate": -0.016449234259784395,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 0
+    },
+    {
+      "seed": 2026,
+      "word_accuracy": 0.0,
+      "character_accuracy": 0.0,
+      "exact_match": 0,
+      "mean_calls": 0.0,
+      "mean_output_tokens": 9.2,
+      "mean_inference_seconds": 0.27838115035556266,
+      "invalid_proposal_rate": 0.0,
+      "letter_conflict_rate": 0.0,
+      "terminal_error_rate": 0
+    }
+  ],
+  "mean_paired_word_difference": 0.0,
+  "total_model_calls": 227,
+  "total_output_tokens": 1650,
+  "total_inference_seconds": 89.41833342378959,
+  "paid_api_cost_usd": 0,
+  "illustrative_pair": {
+    "selection": "largest absolute word-accuracy difference, then lowest seed and puzzle ID",
+    "seed": 17,
+    "puzzle_id": 0,
+    "baseline": {
+      "condition": "baseline",
+      "seed": 17,
+      "puzzle_id": 0,
+      "word_accuracy": 0.0,
+      "exact_match": 0,
+      "character_accuracy": 0.0,
+      "correct_words": 0,
+      "board": [
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____"
+      ],
+      "predicted_words": [
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____"
+      ],
+      "ground_truth_words": [
+        "AGEND",
+        "MOTOR",
+        "ARTSY",
+        "SALLE",
+        "SLEER",
+        "AMASS",
+        "GORAL",
+        "ETTLE",
+        "NOSLE",
+        "DRYER"
+      ],
+      "official_goal_check": [
+        false,
+        0.0
+      ],
+      "steps": [
+        {
+          "__type__": "EnvStep",
+          "error": "Validation failed after 3 retries",
+          "terminate": true,
+          "action": "h1. agenda"
+        }
+      ],
+      "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+      "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+      "n_steps": 1,
+      "n_calls": 3,
+      "input_tokens": 912,
+      "output_tokens": 15,
+      "inference_seconds": 0.9753214996308088,
+      "episode_seconds": 0.9766230001114309,
+      "invalid_proposals": 3,
+      "letter_conflicts": 0,
+      "valid_proposals": 0,
+      "terminal_error": true,
+      "finished_utc": "2026-10-22T09:09:16.111723+00:00"
+    },
+    "letter_consistency": {
+      "condition": "letter_consistency",
+      "seed": 17,
+      "puzzle_id": 0,
+      "word_accuracy": 0.0,
+      "exact_match": 0,
+      "character_accuracy": 0.0,
+      "correct_words": 0,
+      "board": [
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____"
+      ],
+      "predicted_words": [
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____",
+        "_____"
+      ],
+      "ground_truth_words": [
+        "AGEND",
+        "MOTOR",
+        "ARTSY",
+        "SALLE",
+        "SLEER",
+        "AMASS",
+        "GORAL",
+        "ETTLE",
+        "NOSLE",
+        "DRYER"
+      ],
+      "official_goal_check": [
+        false,
+        0.0
+      ],
+      "steps": [
+        {
+          "__type__": "EnvStep",
+          "error": "Validation failed after 3 retries",
+          "terminate": true,
+          "action": "h1. agenda"
+        }
+      ],
+      "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+      "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+      "n_steps": 1,
+      "n_calls": 3,
+      "input_tokens": 1059,
+      "output_tokens": 15,
+      "inference_seconds": 1.2229935824871063,
+      "episode_seconds": 1.224282749928534,
+      "invalid_proposals": 3,
+      "letter_conflicts": 0,
+      "valid_proposals": 0,
+      "terminal_error": true,
+      "finished_utc": "2026-10-22T09:09:17.336393+00:00"
+    }
+  },
+  "audit": {
+    "complete_episode_count": 60,
+    "independent_grid_scores_agree": true,
+    "per_call_token_counts_agree": true,
+    "dataset_hash_agrees": true
+  }
+}

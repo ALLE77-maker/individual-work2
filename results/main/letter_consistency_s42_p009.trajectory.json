@@ -1,0 +1,15 @@
+{
+  "query": "BEBOP\nEMULE\nLOREL\nAVANT\nYENTA\nBELAY\nEMOVE\nBURAN\nOLENT\nPELTA",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "v3. A violent Central Asian blizzard: blizzard"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

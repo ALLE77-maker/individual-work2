@@ -1,0 +1,20 @@
+{
+  "query": "AVERT\nWAXER\nFLETE\nUVATE\nLATEN\nAWFUL\nVALVA\nEXEAT\nRETTE\nTREEN",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v2. valve",
+        "next_state": "Current Board:\n_V___\n_A___\n_L___\n_V___\n_E___\n\nUnfilled:\nh1. To avoid; to turn away: _V___\nh2. One who waxes: _A___\nh3. To float; to swim: _L___\nh4. Grape jam: _V___\nh5. To become late; to cause to become late: _E___\nv1. Terrible; very: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\nv2. An anatomical valve: VALVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. turn away"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n"
+  }
+}
