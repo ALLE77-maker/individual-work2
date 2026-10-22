@@ -1,0 +1,70 @@
+{
+  "condition": "letter_consistency",
+  "seed": 17,
+  "puzzle_id": 8,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AVERT",
+    "WAXER",
+    "FLETE",
+    "UVATE",
+    "LATEN",
+    "AWFUL",
+    "VALVA",
+    "EXEAT",
+    "RETTE",
+    "TREEN"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "action": "h1. avoid",
+      "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: A____\nv2. An anatomical valve: V____\nv3. A bishop's permission for a priest to leave a diocese: O____\nv4. A cigarette: I____\nv5. Wooden; wooden dishes and utensils: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h2. One who waxes: SWEEP"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 2,
+  "n_calls": 4,
+  "input_tokens": 1433,
+  "output_tokens": 39,
+  "inference_seconds": 1.8140576668083668,
+  "episode_seconds": 1.8162791673094034,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 1,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:42.165012+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "condition": "letter_consistency",
+  "seed": 42,
+  "puzzle_id": 7,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AVERT",
+    "VINER",
+    "INULA",
+    "SARIN",
+    "ELECT",
+    "AVISE",
+    "VINAL",
+    "ENURE",
+    "RELIC",
+    "TRANT"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "action": "h4. nerve",
+      "next_state": "Current Board:\n_____\n_____\n_____\nNERVE\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: ___N_\nv2. A synthetic textile fiber: ___E_\nv3. To inure; to harden: ___R_\nv4. A memento; a souvenir: ___V_\nv5. To hawk; to peddle; odd jobs: ___E_\n\nFilled:\nh4. A nerve gas: NERVE\n\nChanged:\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "action": "h2. poden",
+      "next_state": "Current Board:\n_____\nPODEN\n_____\nNERVE\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh3. An herb, the elecampane plant: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _P_N_\nv2. A synthetic textile fiber: _O_E_\nv3. To inure; to harden: _D_R_\nv4. A memento; a souvenir: _E_V_\nv5. To hawk; to peddle; odd jobs: _N_E_\n\nFilled:\nh2. A machine to separate peas from their pods and the pea vine: PODEN\nh4. A nerve gas: NERVE\n\nChanged:\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h3. elecampana"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 3,
+  "n_calls": 6,
+  "input_tokens": 2251,
+  "output_tokens": 46,
+  "inference_seconds": 2.5252234577201307,
+  "episode_seconds": 2.5277567077428102,
+  "invalid_proposals": 4,
+  "letter_conflicts": 0,
+  "valid_proposals": 2,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:10:11.943442+00:00"
+}

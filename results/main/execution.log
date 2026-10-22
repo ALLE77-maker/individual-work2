@@ -1,0 +1,466 @@
+2026-10-22 17:09:15,135 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:15,461 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:15,783 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:16,111 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:09:16,111 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:16,111 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:09:16,111 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:16,112 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:16,607 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:16,971 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:17,336 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:09:17,336 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:17,336 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:09:17,336 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:17,336 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:18,164 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. One who wires: WIRED'
+2026-10-22 17:09:18,680 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. One who wires: h2. TELE​op'
+2026-10-22 17:09:19,128 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. One who wires: TWIST'
+2026-10-22 17:09:19,128 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:19,128 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. One who wires: TWIST)
+2026-10-22 17:09:19,128 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:19,128 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:19,459 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:19,785 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'v1. mindful'
+2026-10-22 17:09:20,114 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:09:20,114 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:20,114 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:09:20,114 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:20,114 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:20,439 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:20,767 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:21,097 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:09:21,097 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:21,097 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:09:21,097 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:21,098 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:21,470 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:21,840 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:22,207 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:09:22,207 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:22,207 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:09:22,207 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:22,207 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:22,572 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. mate'
+2026-10-22 17:09:22,935 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:23,296 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:09:23,296 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:23,297 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:09:23,297 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:23,297 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:23,624 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:23,949 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'v1. benefit'
+2026-10-22 17:09:24,270 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:09:24,270 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:24,270 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:09:24,270 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:24,271 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:24,623 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:24,976 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:09:25,339 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry-up'
+2026-10-22 17:09:25,339 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:25,339 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry-up)
+2026-10-22 17:09:25,339 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:25,340 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:25,721 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:26,168 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: dryad'
+2026-10-22 17:09:26,550 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:09:26,550 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:26,550 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:09:26,550 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:26,551 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:26,931 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:27,377 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: dryad'
+2026-10-22 17:09:27,756 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:09:27,756 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:27,756 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:09:27,756 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:27,757 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:28,099 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:28,444 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:09:28,788 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:09:28,788 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:28,788 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:09:28,788 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:28,788 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:29,136 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:29,484 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:09:30,207 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h5. Everlasting: EVELEN'
+2026-10-22 17:09:30,571 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h5. Eternity'
+2026-10-22 17:09:31,575 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h4. pillow'
+2026-10-22 17:09:31,921 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h4. carpel'
+2026-10-22 17:09:32,781 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'v3. To run away together to get married: VAMAR'
+2026-10-22 17:09:33,162 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. boacon'
+2026-10-22 17:09:33,517 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h3. anaconda'
+2026-10-22 17:09:33,517 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:33,517 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h3. anaconda)
+2026-10-22 17:09:33,517 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:33,517 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:33,907 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:09:34,356 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: dryad'
+2026-10-22 17:09:34,857 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'v3. To run away together to get married: couples'
+2026-10-22 17:09:34,857 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:34,858 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: v3. To run away together to get married: couples)
+2026-10-22 17:09:34,858 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:34,858 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:35,636 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. Defoliator'
+2026-10-22 17:09:36,405 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h3. elecam'
+2026-10-22 17:09:36,809 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. elecampe'
+2026-10-22 17:09:37,216 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h3. elecam�'
+2026-10-22 17:09:37,216 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:37,216 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h3. elecam�)
+2026-10-22 17:09:37,216 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:37,216 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:37,939 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. harvester'
+2026-10-22 17:09:38,331 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. dehusk'
+2026-10-22 17:09:38,693 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. separator'
+2026-10-22 17:09:38,693 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:38,693 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. separator)
+2026-10-22 17:09:38,693 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:38,693 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:39,472 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. One who waxes: SWAXX'
+2026-10-22 17:09:39,901 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. One who waxes: FLUX'
+2026-10-22 17:09:40,348 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. One who waxes: SWAXE'
+2026-10-22 17:09:40,348 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:40,348 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. One who waxes: SWAXE)
+2026-10-22 17:09:40,348 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:40,348 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:41,204 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. One who waxes: SWAXE'
+2026-10-22 17:09:41,681 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. One who waxes: FLUX'
+2026-10-22 17:09:42,164 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. One who waxes: SWEEP'
+2026-10-22 17:09:42,164 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:42,164 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. One who waxes: SWEEP)
+2026-10-22 17:09:42,164 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:42,165 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:42,550 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. jazzed'
+2026-10-22 17:09:42,932 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. stormy'
+2026-10-22 17:09:43,347 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. quasinët'
+2026-10-22 17:09:43,347 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:43,347 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. quasinët)
+2026-10-22 17:09:43,347 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:43,348 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:43,710 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. jazzman'
+2026-10-22 17:09:44,061 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. jazzman'
+2026-10-22 17:09:44,405 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. jazziness'
+2026-10-22 17:09:44,405 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:44,405 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. jazziness)
+2026-10-22 17:09:44,405 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:44,406 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:44,772 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:45,139 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:45,942 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. An engine: STOVE'
+2026-10-22 17:09:46,376 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. An engine: STERN'
+2026-10-22 17:09:46,807 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. An engine: SMOTE'
+2026-10-22 17:09:46,807 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:46,807 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. An engine: SMOTE)
+2026-10-22 17:09:46,807 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:46,807 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:47,139 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:47,467 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:47,791 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:09:47,791 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:47,791 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:09:47,791 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:47,792 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:48,204 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'v3. Drenched; drowned: water'
+2026-10-22 17:09:48,543 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:48,874 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:09:48,874 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:48,874 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:09:48,874 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:48,875 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:49,245 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:09:49,615 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:09:49,981 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. awakened'
+2026-10-22 17:09:49,981 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:49,981 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. awakened)
+2026-10-22 17:09:49,981 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:49,982 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:50,348 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:50,717 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:51,537 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. Something big and important: giant'
+2026-10-22 17:09:52,068 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. Something big and important: h2. CITIES'
+2026-10-22 17:09:52,937 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. Something big and important: GLASS
+
+Changed:
+APPLE
+GLASS
+_____
+_____
+_____
+_____
+
+Changed:
+h3. Things'
+2026-10-22 17:09:52,937 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:52,937 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. Something big and important: GLASS
+
+Changed:
+APPLE
+GLASS
+_____
+_____
+_____
+_____
+
+Changed:
+h3. Things)
+2026-10-22 17:09:52,937 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:52,938 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:53,288 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:53,619 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:53,948 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. brother'
+2026-10-22 17:09:53,948 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:53,948 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. brother)
+2026-10-22 17:09:53,948 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:53,948 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:54,273 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'v1. benefit'
+2026-10-22 17:09:54,606 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:09:55,342 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. To baptize: baptize'
+2026-10-22 17:09:55,754 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. To baptize: birthay'
+2026-10-22 17:09:56,168 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. to baptize: baptize'
+2026-10-22 17:09:56,168 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:56,168 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. to baptize: baptize)
+2026-10-22 17:09:56,168 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:56,168 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:56,542 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:09:57,377 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. To baptize: ABIDE'
+2026-10-22 17:09:57,840 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. To baptize: ABATE'
+2026-10-22 17:09:58,293 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. To baptize: ABIDE'
+2026-10-22 17:09:58,293 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:58,293 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. To baptize: ABIDE)
+2026-10-22 17:09:58,293 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:58,294 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:58,746 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To dry up: dryad'
+2026-10-22 17:09:59,195 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: arid'
+2026-10-22 17:09:59,648 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. To dry up: arid'
+2026-10-22 17:09:59,648 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:09:59,648 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. To dry up: arid)
+2026-10-22 17:09:59,648 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:09:59,649 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:09:59,998 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:10:00,340 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:00,691 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:00,691 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:00,691 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:00,691 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:00,691 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:01,040 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:10:01,385 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:01,728 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:01,728 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:01,728 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:01,728 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:01,728 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:02,182 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To dry up: dryad'
+2026-10-22 17:10:02,644 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: arid'
+2026-10-22 17:10:03,058 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:03,058 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:03,058 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:03,058 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:03,058 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:03,874 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. To dry up: SALT'
+2026-10-22 17:10:04,342 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. To dry up: TORNK'
+2026-10-22 17:10:04,831 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. To let fall: L0CKS'
+2026-10-22 17:10:04,831 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:04,831 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. To let fall: L0CKS)
+2026-10-22 17:10:04,831 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:04,832 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:05,586 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h5. Eternal, everlasting: Eternal'
+2026-10-22 17:10:05,950 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. boa'
+2026-10-22 17:10:06,431 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. Worth; usefulness; desirability: WORTH'
+2026-10-22 17:10:06,431 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:06,431 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. Worth; usefulness; desirability: WORTH)
+2026-10-22 17:10:06,432 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:06,432 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:07,162 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. harvester'
+2026-10-22 17:10:07,560 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. Dehydrator'
+2026-10-22 17:10:08,445 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h3. Carrot
+v4. Keepsake'
+2026-10-22 17:10:09,001 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. Herbace‌us
+v4. Remem‌ber'
+2026-10-22 17:10:09,415 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h3. Helope'
+2026-10-22 17:10:09,415 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:09,415 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h3. Helope)
+2026-10-22 17:10:09,415 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:09,415 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:09,924 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To avoid; to turn away: awayays'
+2026-10-22 17:10:11,106 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h3. elecampane'
+2026-10-22 17:10:11,513 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. elecampe'
+2026-10-22 17:10:11,943 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h3. elecampana'
+2026-10-22 17:10:11,943 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:11,943 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h3. elecampana)
+2026-10-22 17:10:11,943 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:11,943 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:12,765 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. To turn: TURNED'
+2026-10-22 17:10:13,235 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. To fix. MEND'
+2026-10-22 17:10:13,639 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. turn away'
+2026-10-22 17:10:13,639 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:13,639 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. turn away)
+2026-10-22 17:10:13,639 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:13,640 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:13,992 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'v1. terrible'
+2026-10-22 17:10:15,155 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h3. To float; to swim: A-ROW'
+2026-10-22 17:10:15,587 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h3. To float; to swim: FLOAT'
+2026-10-22 17:10:16,065 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h3. To float; to swim: DOWNSWIM'
+2026-10-22 17:10:16,065 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:16,065 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h3. To float; to swim: DOWNSWIM)
+2026-10-22 17:10:16,065 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:16,066 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:16,444 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. jazzman'
+2026-10-22 17:10:16,811 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dissonant'
+2026-10-22 17:10:17,266 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'v3. A violent Central Asian blizzard: storm'
+2026-10-22 17:10:17,266 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:17,266 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: v3. A violent Central Asian blizzard: storm)
+2026-10-22 17:10:17,266 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:17,267 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:17,663 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. jazzed'
+2026-10-22 17:10:18,067 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dissonant'
+2026-10-22 17:10:18,577 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'v3. A violent Central Asian blizzard: blizzard'
+2026-10-22 17:10:18,577 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:18,577 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: v3. A violent Central Asian blizzard: blizzard)
+2026-10-22 17:10:18,577 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:18,577 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:18,950 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:10:19,338 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agendum'
+2026-10-22 17:10:19,708 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:10:19,708 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:19,708 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:10:19,708 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:19,708 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:20,050 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:10:20,377 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:10:20,712 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:10:20,712 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:20,713 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:10:20,713 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:20,713 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:21,052 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. agenda'
+2026-10-22 17:10:21,389 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agenda'
+2026-10-22 17:10:21,728 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. agenda'
+2026-10-22 17:10:21,728 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:21,728 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. agenda)
+2026-10-22 17:10:21,728 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:21,729 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:22,111 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. program'
+2026-10-22 17:10:22,505 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. agendum'
+2026-10-22 17:10:22,982 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'v4. Not ever: v4. down'
+2026-10-22 17:10:22,982 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:22,982 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: v4. Not ever: v4. down)
+2026-10-22 17:10:22,982 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:22,983 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:23,367 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:10:23,736 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:10:24,237 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. Something big and important: HIMALAYA'
+2026-10-22 17:10:24,237 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:24,237 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. Something big and important: HIMALAYA)
+2026-10-22 17:10:24,237 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:24,237 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:24,574 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:10:24,906 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:10:25,254 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:10:25,254 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:25,254 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:10:25,254 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:25,254 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:25,588 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:10:25,923 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:10:26,257 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. friend'
+2026-10-22 17:10:26,257 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:26,257 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. friend)
+2026-10-22 17:10:26,257 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:26,257 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:26,630 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. friend'
+2026-10-22 17:10:26,998 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. friend'
+2026-10-22 17:10:27,434 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. To baptize: baptism'
+2026-10-22 17:10:27,434 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:27,434 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. To baptize: baptism)
+2026-10-22 17:10:27,434 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:27,434 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:27,905 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To dry up: DRYUP'
+2026-10-22 17:10:28,365 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: dryad'
+2026-10-22 17:10:28,754 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:28,757 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:28,757 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:28,757 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:28,757 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:29,113 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:10:29,474 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:29,826 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:29,826 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:29,826 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:29,826 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:29,826 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:30,172 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:10:30,534 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:30,877 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:30,878 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:30,878 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:30,878 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:30,878 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:31,359 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To dry up: DRYER'
+2026-10-22 17:10:31,833 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To dry up: dryad'
+2026-10-22 17:10:32,217 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:32,218 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:32,218 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:32,218 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:32,218 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:32,675 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To dry up: dries'
+2026-10-22 17:10:33,075 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:33,574 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. To dry up: DRY UP'
+2026-10-22 17:10:33,574 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:33,575 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. To dry up: DRY UP)
+2026-10-22 17:10:33,575 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:33,576 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:33,948 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dry up'
+2026-10-22 17:10:34,291 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dry up'
+2026-10-22 17:10:34,645 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. dry up'
+2026-10-22 17:10:34,645 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:34,645 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. dry up)
+2026-10-22 17:10:34,645 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:34,645 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:35,001 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. awayay'
+2026-10-22 17:10:35,354 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. turnay'
+2026-10-22 17:10:36,101 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. dehusk'
+2026-10-22 17:10:36,505 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. Dehydrator'
+2026-10-22 17:10:36,892 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. separator'
+2026-10-22 17:10:36,892 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:36,892 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. separator)
+2026-10-22 17:10:36,892 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:36,893 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:37,412 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To avoid; to turn away: awayay'
+2026-10-22 17:10:37,933 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. To avoid; to turn away: aside'
+2026-10-22 17:10:38,470 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. To avoid; to turn away: awayards'
+2026-10-22 17:10:38,470 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:38,470 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. To avoid; to turn away: awayards)
+2026-10-22 17:10:38,470 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:38,470 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:38,985 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. To avoid; to turn away: awayay'
+2026-10-22 17:10:39,382 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. awayay'
+2026-10-22 17:10:40,236 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h2. One who waxes: SWAXE'
+2026-10-22 17:10:40,740 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h2. One who waxes: WAXED'
+2026-10-22 17:10:41,264 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h2. One who waxes: SWAXX'
+2026-10-22 17:10:41,264 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:41,264 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h2. One who waxes: SWAXX)
+2026-10-22 17:10:41,264 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:41,264 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:41,631 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. awayay'
+2026-10-22 17:10:41,991 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. turnay'
+2026-10-22 17:10:42,344 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. awayay'
+2026-10-22 17:10:42,344 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:42,344 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. awayay)
+2026-10-22 17:10:42,344 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:42,345 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:42,722 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dissonant'
+2026-10-22 17:10:43,092 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. jazzman'
+2026-10-22 17:10:43,444 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. jazzman'
+2026-10-22 17:10:43,444 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:43,444 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. jazzman)
+2026-10-22 17:10:43,444 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal
+2026-10-22 17:10:43,445 WARNING lits.components.base Policy.__init__: task_prompt_spec not found for task_name='crosswords' or task_type='env_grounded'
+2026-10-22 17:10:43,867 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 1/3): 'h1. dissonant'
+2026-10-22 17:10:44,281 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 2/3): 'h1. dissonant'
+2026-10-22 17:10:44,683 WARNING lits.components.policy.env_grounded [POLICY] Invalid action (attempt 3/3): 'h1. jazzed'
+2026-10-22 17:10:44,683 ERROR lits.components.policy.env_grounded Max retries (3) exceeded for action generation.
+2026-10-22 17:10:44,683 ERROR lits.agents.chain.env_chain Terminal error in action generation: Validation failed after 3 retries (action: h1. jazzed)
+2026-10-22 17:10:44,683 WARNING lits.agents.chain.env_chain Max steps reached without achieving goal

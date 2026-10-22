@@ -1,0 +1,4027 @@
+[
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 912,
+    "output_tokens": 15,
+    "inference_seconds": 0.9753214996308088,
+    "episode_seconds": 0.9766230001114309,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:16.111723+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1059,
+    "output_tokens": 15,
+    "inference_seconds": 1.2229935824871063,
+    "episode_seconds": 1.224282749928534,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:17.336393+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. awake",
+        "next_state": "Current Board:\nAWAKE\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: A____\nv2. A gadget: W____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): A____\nv4. Not ever: K____\nv5. Drenched; drowned: E____\n\nFilled:\nh1. An agendum; something to be done: AWAKE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. One who wires: TWIST"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1445,
+    "output_tokens": 40,
+    "inference_seconds": 1.7901363344863057,
+    "episode_seconds": 1.7916807918809354,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:19.128456+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 921,
+    "output_tokens": 15,
+    "inference_seconds": 0.9845402506180108,
+    "episode_seconds": 0.985705791041255,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:20.114542+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 900,
+    "output_tokens": 15,
+    "inference_seconds": 0.9817637922242284,
+    "episode_seconds": 0.9829282080754638,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:21.097863+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1047,
+    "output_tokens": 15,
+    "inference_seconds": 1.1081477077677846,
+    "episode_seconds": 1.1093382919207215,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:22.207595+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1026,
+    "output_tokens": 15,
+    "inference_seconds": 1.0880872481502593,
+    "episode_seconds": 1.0891288751736283,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:23.297095+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 879,
+    "output_tokens": 15,
+    "inference_seconds": 0.9722239575348794,
+    "episode_seconds": 0.9732998330146074,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:24.270761+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry-up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 918,
+    "output_tokens": 18,
+    "inference_seconds": 1.0675027500838041,
+    "episode_seconds": 1.068857790902257,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:25.339978+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1065,
+    "output_tokens": 22,
+    "inference_seconds": 1.209511376451701,
+    "episode_seconds": 1.2106163329444826,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:26.550966+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1026,
+    "output_tokens": 22,
+    "inference_seconds": 1.2044520415365696,
+    "episode_seconds": 1.2055883752182126,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:27.756914+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 879,
+    "output_tokens": 18,
+    "inference_seconds": 1.0298849577084184,
+    "episode_seconds": 1.0309809581376612,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:28.788253+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v1. carve",
+        "next_state": "Current Board:\nC____\nA____\nR____\nV____\nE____\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nh5. Eternal, everlasting: E____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\nv1. To let fall: CARVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h5. Dwell",
+        "next_state": "Current Board:\nC____\nA____\nR____\nV____\nDWELL\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: ____W\nv3. To run away together to get married: ____E\nv4. One who fumes: ____L\nv5. To crave: ____L\n\nFilled:\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. apple",
+        "next_state": "Current Board:\nC____\nAPPLE\nR____\nV____\nDWELL\n\nUnfilled:\nh1. To dry up: C____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: _P__W\nv3. To run away together to get married: _P__E\nv4. One who fumes: _L__L\nv5. To crave: _E__L\n\nFilled:\nh2. Worth; usefulness; desirability: APPLE\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h1. CARVD",
+        "next_state": "Current Board:\nCARVD\nAPPLE\nR____\nV____\nDWELL\n\nUnfilled:\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: AP__W\nv3. To run away together to get married: RP__E\nv4. One who fumes: VL__L\nv5. To crave: DE__L\n\nFilled:\nh1. To dry up: CARVD\nh2. Worth; usefulness; desirability: APPLE\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. anaconda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 5,
+    "n_calls": 13,
+    "input_tokens": 4023,
+    "output_tokens": 88,
+    "inference_seconds": 4.723217957187444,
+    "episode_seconds": 4.728712915908545,
+    "invalid_proposals": 9,
+    "letter_conflicts": 1,
+    "valid_proposals": 4,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:33.517367+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "v3. To run away together to get married: couples"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1038,
+    "output_tokens": 29,
+    "inference_seconds": 1.3389835837297142,
+    "episode_seconds": 1.3401739997789264,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:34.858138+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: A____\nv2. A synthetic textile fiber: V____\nv3. To inure; to harden: O____\nv4. A memento; a souvenir: I____\nv5. To hawk; to peddle; odd jobs: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. Vomit",
+        "next_state": "Current Board:\nAVOID\nVOMIT\n_____\n_____\n_____\n\nUnfilled:\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: AV___\nv2. A synthetic textile fiber: VO___\nv3. To inure; to harden: OM___\nv4. A memento; a souvenir: II___\nv5. To hawk; to peddle; odd jobs: DT___\n\nFilled:\nh1. To avoid; to turn away: AVOID\nh2. A machine to separate peas from their pods and the pea vine: VOMIT\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. elecam\ufffd"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 3,
+    "n_calls": 6,
+    "input_tokens": 2246,
+    "output_tokens": 38,
+    "inference_seconds": 2.3553857929073274,
+    "episode_seconds": 2.357638332992792,
+    "invalid_proposals": 4,
+    "letter_conflicts": 0,
+    "valid_proposals": 2,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:37.216262+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: A____\nv2. A synthetic textile fiber: V____\nv3. To inure; to harden: O____\nv4. A memento; a souvenir: I____\nv5. To hawk; to peddle; odd jobs: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. separator"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1293,
+    "output_tokens": 23,
+    "inference_seconds": 1.475151834078133,
+    "episode_seconds": 1.4767637504264712,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:38.693403+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: A____\nv2. An anatomical valve: V____\nv3. A bishop's permission for a priest to leave a diocese: O____\nv4. A cigarette: I____\nv5. Wooden; wooden dishes and utensils: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. One who waxes: SWAXE"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1237,
+    "output_tokens": 40,
+    "inference_seconds": 1.6530772908590734,
+    "episode_seconds": 1.6545416661538184,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:40.348320+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: A____\nv2. An anatomical valve: V____\nv3. A bishop's permission for a priest to leave a diocese: O____\nv4. A cigarette: I____\nv5. Wooden; wooden dishes and utensils: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. One who waxes: SWEEP"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1433,
+    "output_tokens": 39,
+    "inference_seconds": 1.8140576668083668,
+    "episode_seconds": 1.8162791673094034,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:42.165012+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 17,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. quasin\u00ebt"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1086,
+    "output_tokens": 20,
+    "inference_seconds": 1.181120542343706,
+    "episode_seconds": 1.1823626668192446,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:43.347767+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 17,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. jazziness"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 939,
+    "output_tokens": 18,
+    "inference_seconds": 1.0567413745447993,
+    "episode_seconds": 1.0577732911333442,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:44.405943+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. apple",
+        "next_state": "Current Board:\nAPPLE\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: A____\nv2. An Indian antelope: P____\nv3. To intend; to plan; to devise; a nettle; to guess: P____\nv4. A nozzle: L____\nv5. Desiccator; more dry: E____\n\nFilled:\nh1. An agendum; something to be done: APPLE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. An engine: SMOTE"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 6,
+    "input_tokens": 2133,
+    "output_tokens": 42,
+    "inference_seconds": 2.398755583446473,
+    "episode_seconds": 2.4009284167550504,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:46.807232+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 912,
+    "output_tokens": 15,
+    "inference_seconds": 0.983106333296746,
+    "episode_seconds": 0.9841915839351714,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:47.791797+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 921,
+    "output_tokens": 20,
+    "inference_seconds": 1.0817145835608244,
+    "episode_seconds": 1.0828367918729782,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:48.874972+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. awakened"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1068,
+    "output_tokens": 15,
+    "inference_seconds": 1.1050612921826541,
+    "episode_seconds": 1.1063449997454882,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:49.981683+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. apple",
+        "next_state": "Current Board:\nAPPLE\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: A____\nv2. A craze: P____\nv3. To force; to drive: P____\nv4. To dig out roughly: L____\nv5. On the outside: E____\n\nFilled:\nh1. A male friend: APPLE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. Something big and important: GLASS\n\nChanged:\nAPPLE\nGLASS\n_____\n_____\n_____\n_____\n\nChanged:\nh3. Things"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 6,
+    "input_tokens": 2109,
+    "output_tokens": 71,
+    "inference_seconds": 2.9523346251808107,
+    "episode_seconds": 2.9555879160761833,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:52.937780+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. brother"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 900,
+    "output_tokens": 15,
+    "inference_seconds": 1.0084954593330622,
+    "episode_seconds": 1.0097523746080697,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:53.948362+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. buddy",
+        "next_state": "Current Board:\nBUDDY\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: B____\nv2. A Zen question and answer method; extreme: U____\nv3. Ancient Troy: D____\nv4. A water fowl; a pinch to the rear; tailor's iron: D____\nv5. A possesser: Y____\n\nFilled:\nh1. A male friend: BUDDY\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. to baptize: baptize"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 6,
+    "input_tokens": 1785,
+    "output_tokens": 45,
+    "inference_seconds": 2.217860082630068,
+    "episode_seconds": 2.2198852919973433,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:56.168644+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. apple",
+        "next_state": "Current Board:\nAPPLE\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: A____\nv2. A Zen question and answer method; extreme: P____\nv3. Ancient Troy: P____\nv4. A water fowl; a pinch to the rear; tailor's iron: L____\nv5. A possesser: E____\n\nFilled:\nh1. A male friend: APPLE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. To baptize: ABIDE"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 5,
+    "input_tokens": 1725,
+    "output_tokens": 40,
+    "inference_seconds": 2.122560374904424,
+    "episode_seconds": 2.1247933749109507,
+    "invalid_proposals": 4,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:58.293795+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. To dry up: arid"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1065,
+    "output_tokens": 30,
+    "inference_seconds": 1.3534813760779798,
+    "episode_seconds": 1.354591750074178,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:09:59.648774+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 918,
+    "output_tokens": 18,
+    "inference_seconds": 1.0411262917332351,
+    "episode_seconds": 1.0422385828569531,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:00.691383+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 879,
+    "output_tokens": 18,
+    "inference_seconds": 1.0357559593394399,
+    "episode_seconds": 1.0368533753789961,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:01.728587+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1026,
+    "output_tokens": 26,
+    "inference_seconds": 1.3253813330084085,
+    "episode_seconds": 1.3296176670119166,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:03.058550+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v2. block",
+        "next_state": "Current Board:\n_B___\n_L___\n_O___\n_C___\n_K___\n\nUnfilled:\nh1. To dry up: _B___\nh2. Worth; usefulness; desirability: _L___\nh3. A South American boa constrictor: _O___\nh4. One who lopes: _C___\nh5. Eternal, everlasting: _K___\nv1. To let fall: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\nv2. A block for polishing marble or other rocks: BLOCK\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. To let fall: L0CKS"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1426,
+    "output_tokens": 38,
+    "inference_seconds": 1.7711724159307778,
+    "episode_seconds": 1.7728209169581532,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:04.831734+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v1. carve",
+        "next_state": "Current Board:\nC____\nA____\nR____\nV____\nE____\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nh5. Eternal, everlasting: E____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\nv1. To let fall: CARVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. Worth; usefulness; desirability: WORTH"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1221,
+    "output_tokens": 34,
+    "inference_seconds": 1.5978980823419988,
+    "episode_seconds": 1.5998879997059703,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:06.432038+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: A____\nv2. A synthetic textile fiber: V____\nv3. To inure; to harden: O____\nv4. A memento; a souvenir: I____\nv5. To hawk; to peddle; odd jobs: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. dehvi",
+        "next_state": "Current Board:\nAVOID\nDEHVI\n_____\n_____\n_____\n\nUnfilled:\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: AD___\nv2. A synthetic textile fiber: VE___\nv3. To inure; to harden: OH___\nv4. A memento; a souvenir: IV___\nv5. To hawk; to peddle; odd jobs: DI___\n\nFilled:\nh1. To avoid; to turn away: AVOID\nh2. A machine to separate peas from their pods and the pea vine: DEHVI\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. Helope"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 3,
+    "n_calls": 7,
+    "input_tokens": 2277,
+    "output_tokens": 59,
+    "inference_seconds": 2.9794620415195823,
+    "episode_seconds": 2.9827849166467786,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 2,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:09.415240+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h4. nerve",
+        "next_state": "Current Board:\n_____\n_____\n_____\nNERVE\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: ___N_\nv2. A synthetic textile fiber: ___E_\nv3. To inure; to harden: ___R_\nv4. A memento; a souvenir: ___V_\nv5. To hawk; to peddle; odd jobs: ___E_\n\nFilled:\nh4. A nerve gas: NERVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. poden",
+        "next_state": "Current Board:\n_____\nPODEN\n_____\nNERVE\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh3. An herb, the elecampane plant: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _P_N_\nv2. A synthetic textile fiber: _O_E_\nv3. To inure; to harden: _D_R_\nv4. A memento; a souvenir: _E_V_\nv5. To hawk; to peddle; odd jobs: _N_E_\n\nFilled:\nh2. A machine to separate peas from their pods and the pea vine: PODEN\nh4. A nerve gas: NERVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. elecampana"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 3,
+    "n_calls": 6,
+    "input_tokens": 2251,
+    "output_tokens": 46,
+    "inference_seconds": 2.5252234577201307,
+    "episode_seconds": 2.5277567077428102,
+    "invalid_proposals": 4,
+    "letter_conflicts": 0,
+    "valid_proposals": 2,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:11.943442+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v2. valve",
+        "next_state": "Current Board:\n_V___\n_A___\n_L___\n_V___\n_E___\n\nUnfilled:\nh1. To avoid; to turn away: _V___\nh2. One who waxes: _A___\nh3. To float; to swim: _L___\nh4. Grape jam: _V___\nh5. To become late; to cause to become late: _E___\nv1. Terrible; very: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\nv2. An anatomical valve: VALVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. turn away"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 4,
+    "input_tokens": 1457,
+    "output_tokens": 29,
+    "inference_seconds": 1.6936309579759836,
+    "episode_seconds": 1.6956572919152677,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:13.639666+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: A____\nv2. An anatomical valve: V____\nv3. A bishop's permission for a priest to leave a diocese: O____\nv4. A cigarette: I____\nv5. Wooden; wooden dishes and utensils: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. apple",
+        "next_state": "Current Board:\nAVOID\nAPPLE\n_____\n_____\n_____\n\nUnfilled:\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: AA___\nv2. An anatomical valve: VP___\nv3. A bishop's permission for a priest to leave a diocese: OP___\nv4. A cigarette: IL___\nv5. Wooden; wooden dishes and utensils: DE___\n\nFilled:\nh1. To avoid; to turn away: AVOID\nh2. One who waxes: APPLE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. To float; to swim: DOWNSWIM"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 3,
+    "n_calls": 6,
+    "input_tokens": 1849,
+    "output_tokens": 52,
+    "inference_seconds": 2.421703041996807,
+    "episode_seconds": 2.425656834151596,
+    "invalid_proposals": 4,
+    "letter_conflicts": 0,
+    "valid_proposals": 2,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:16.065905+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 42,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "v3. A violent Central Asian blizzard: storm"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 939,
+    "output_tokens": 25,
+    "inference_seconds": 1.1989006670191884,
+    "episode_seconds": 1.2001973339356482,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:17.266995+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 42,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "v3. A violent Central Asian blizzard: blizzard"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1086,
+    "output_tokens": 26,
+    "inference_seconds": 1.3087880001403391,
+    "episode_seconds": 1.3099365415982902,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:18.577351+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1059,
+    "output_tokens": 16,
+    "inference_seconds": 1.129443084821105,
+    "episode_seconds": 1.1307240002788603,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:19.708456+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 0,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "MOTOR",
+      "ARTSY",
+      "SALLE",
+      "SLEER",
+      "AMASS",
+      "GORAL",
+      "ETTLE",
+      "NOSLE",
+      "DRYER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 912,
+    "output_tokens": 15,
+    "inference_seconds": 1.0030949148349464,
+    "episode_seconds": 1.0042051658965647,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:20.713092+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. agenda"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 921,
+    "output_tokens": 15,
+    "inference_seconds": 1.0141560845077038,
+    "episode_seconds": 1.0155574157834053,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:21.729028+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 1,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AGEND",
+      "WIRER",
+      "AMOVE",
+      "RISEN",
+      "EXERT",
+      "AWARE",
+      "GIMIX",
+      "EROSE",
+      "NEVER",
+      "DRENT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "v4. Not ever: v4. down"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1068,
+    "output_tokens": 22,
+    "inference_seconds": 1.2518536243587732,
+    "episode_seconds": 1.2533359578810632,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:22.982830+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. Something big and important: HIMALAYA"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1047,
+    "output_tokens": 23,
+    "inference_seconds": 1.2526380829513073,
+    "episode_seconds": 1.2537642503157258,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:24.237224+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 2,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "MAMOU",
+      "INPUT",
+      "SIEGE",
+      "HALER",
+      "AMISH",
+      "MANIA",
+      "IMPEL",
+      "GOUGE",
+      "OUTER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 900,
+    "output_tokens": 15,
+    "inference_seconds": 1.0156245012767613,
+    "episode_seconds": 1.0167438751086593,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:25.254322+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. friend"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 879,
+    "output_tokens": 15,
+    "inference_seconds": 1.0014608334749937,
+    "episode_seconds": 1.0028689163737,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:26.257549+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 3,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AMIGO",
+      "VOLOW",
+      "ANION",
+      "IDOSE",
+      "LONER",
+      "AVAIL",
+      "MONDO",
+      "ILION",
+      "GOOSE",
+      "OWNER"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. To baptize: baptism"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1026,
+    "output_tokens": 19,
+    "inference_seconds": 1.1754845422692597,
+    "episode_seconds": 1.1766266669146717,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:27.434596+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1065,
+    "output_tokens": 27,
+    "inference_seconds": 1.3187799998559058,
+    "episode_seconds": 1.3224875419400632,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:28.757459+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 4,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "RETIE",
+      "ISTRA",
+      "SILER",
+      "ETERN",
+      "ARISE",
+      "RESIT",
+      "ETTLE",
+      "FIRER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 918,
+    "output_tokens": 18,
+    "inference_seconds": 1.0674503748305142,
+    "episode_seconds": 1.068769957870245,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:29.826590+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 879,
+    "output_tokens": 18,
+    "inference_seconds": 1.0496054170653224,
+    "episode_seconds": 1.0511284158565104,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:30.878106+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 5,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "REVIE",
+      "IGALA",
+      "SEDER",
+      "ETERN",
+      "ARISE",
+      "REGET",
+      "EVADE",
+      "FILER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1026,
+    "output_tokens": 27,
+    "inference_seconds": 1.3377796253189445,
+    "episode_seconds": 1.3396784160286188,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:32.218125+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. To dry up: DRY UP"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1038,
+    "output_tokens": 27,
+    "inference_seconds": 1.35471450118348,
+    "episode_seconds": 1.3567062919028103,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:33.575249+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 6,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN",
+      "AVALE",
+      "RABOT",
+      "ELOPE",
+      "FUMER",
+      "YEARN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 891,
+    "output_tokens": 18,
+    "inference_seconds": 1.0680569168180227,
+    "episode_seconds": 1.0694683748297393,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:34.645648+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: A____\nv2. A synthetic textile fiber: V____\nv3. To inure; to harden: O____\nv4. A memento; a souvenir: I____\nv5. To hawk; to peddle; odd jobs: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. separator"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 6,
+    "input_tokens": 1929,
+    "output_tokens": 36,
+    "inference_seconds": 2.2440203768201172,
+    "episode_seconds": 2.246717208996415,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:36.892723+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 7,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "VINER",
+      "INULA",
+      "SARIN",
+      "ELECT",
+      "AVISE",
+      "VINAL",
+      "ENURE",
+      "RELIC",
+      "TRANT"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. To avoid; to turn away: awayards"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1101,
+    "output_tokens": 38,
+    "inference_seconds": 1.5757176256738603,
+    "episode_seconds": 1.5774187920615077,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:38.470516+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: A____\nv2. An anatomical valve: V____\nv3. A bishop's permission for a priest to leave a diocese: O____\nv4. A cigarette: I____\nv5. Wooden; wooden dishes and utensils: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. One who waxes: SWAXX"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 2,
+    "n_calls": 6,
+    "input_tokens": 2139,
+    "output_tokens": 60,
+    "inference_seconds": 2.790283501148224,
+    "episode_seconds": 2.793336625210941,
+    "invalid_proposals": 5,
+    "letter_conflicts": 0,
+    "valid_proposals": 1,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:41.264411+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 8,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "AVERT",
+      "WAXER",
+      "FLETE",
+      "UVATE",
+      "LATEN",
+      "AWFUL",
+      "VALVA",
+      "EXEAT",
+      "RETTE",
+      "TREEN"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. awayay"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. One who waxes: _____\nh3. To float; to swim: _____\nh4. Grape jam: _____\nh5. To become late; to cause to become late: _____\nv1. Terrible; very: _____\nv2. An anatomical valve: _____\nv3. A bishop's permission for a priest to leave a diocese: _____\nv4. A cigarette: _____\nv5. Wooden; wooden dishes and utensils: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 912,
+    "output_tokens": 18,
+    "inference_seconds": 1.0784921664744616,
+    "episode_seconds": 1.0801647077314556,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:42.345006+00:00"
+  },
+  {
+    "condition": "baseline",
+    "seed": 2026,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. jazzman"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 939,
+    "output_tokens": 19,
+    "inference_seconds": 1.0979426237754524,
+    "episode_seconds": 1.0994559577666223,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:43.444829+00:00"
+  },
+  {
+    "condition": "letter_consistency",
+    "seed": 2026,
+    "puzzle_id": 9,
+    "word_accuracy": 0.0,
+    "exact_match": 0,
+    "character_accuracy": 0.0,
+    "correct_words": 0,
+    "board": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "predicted_words": [
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____",
+      "_____"
+    ],
+    "ground_truth_words": [
+      "BEBOP",
+      "EMULE",
+      "LOREL",
+      "AVANT",
+      "YENTA",
+      "BELAY",
+      "EMOVE",
+      "BURAN",
+      "OLENT",
+      "PELTA"
+    ],
+    "official_goal_check": [
+      false,
+      0.0
+    ],
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. jazzed"
+      }
+    ],
+    "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+    "n_steps": 1,
+    "n_calls": 3,
+    "input_tokens": 1086,
+    "output_tokens": 20,
+    "inference_seconds": 1.2370211258530617,
+    "episode_seconds": 1.2385689998045564,
+    "invalid_proposals": 3,
+    "letter_conflicts": 0,
+    "valid_proposals": 0,
+    "terminal_error": true,
+    "finished_utc": "2026-10-22T09:10:44.683978+00:00"
+  }
+]

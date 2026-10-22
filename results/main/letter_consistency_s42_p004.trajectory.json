@@ -1,0 +1,15 @@
+{
+  "query": "AREFY\nRETIE\nISTRA\nSILER\nETERN\nARISE\nRESIT\nETTLE\nFIRER\nYEARN",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. To dry up: arid"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To tie again: _____\nh3. The Istrian peninsula: _____\nh4. One who strains; one who runs heavily: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To sit again: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. An igniter; a shooter: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

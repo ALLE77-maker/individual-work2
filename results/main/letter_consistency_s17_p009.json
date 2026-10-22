@@ -1,0 +1,65 @@
+{
+  "condition": "letter_consistency",
+  "seed": 17,
+  "puzzle_id": 9,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "BEBOP",
+    "EMULE",
+    "LOREL",
+    "AVANT",
+    "YENTA",
+    "BELAY",
+    "EMOVE",
+    "BURAN",
+    "OLENT",
+    "PELTA"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h1. quasin\u00ebt"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. (yet more) dissonant jazz, with solo improvisations and complex rhythms: _____\nh2. To emulate: _____\nh3. A worthless person: _____\nh4. Culturally or stylistically new: _____\nh5. A talkative, gossipy person: _____\nv1. To fasten; to hold: _____\nv2. To move: _____\nv3. A violent Central Asian blizzard: _____\nv4. Odorous; fragrant: _____\nv5. A light Greek shield; an apothecium: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 1,
+  "n_calls": 3,
+  "input_tokens": 1086,
+  "output_tokens": 20,
+  "inference_seconds": 1.181120542343706,
+  "episode_seconds": 1.1823626668192446,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 0,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:43.347767+00:00"
+}

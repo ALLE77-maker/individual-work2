@@ -1,0 +1,47 @@
+{
+  "upstream_repository": "https://github.com/xinzhel/lits-llm",
+  "upstream_commit": "1ef347bee7b3f2c10dc504342589b8c951794c2d",
+  "dataset_sha256": "50590d5886fac5e0971f483df93668a8f3c638d8312a490655b869a93d569154",
+  "model_repository": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "model_revision": "4f83f8f146fdf28b512a06562b671d7af4fab457",
+  "model_sha256": "f212cf6fb9923281a09c135e05d43a052ee5ef7121f5b1dc0b0fb2de80f97cfd",
+  "puzzle_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "conditions": [
+    "baseline",
+    "letter_consistency"
+  ],
+  "max_steps": 10,
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 50,
+  "max_new_tokens": 32,
+  "modification": "\n\nLetter-consistency rule: Every non-underscore letter in the chosen position is fixed by the current board. Your proposed word must match all of these letters in their exact positions. Choose another unfilled position if you cannot find a matching word.",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.4-arm64-arm-64bit",
+  "versions": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.29.1",
+    "numpy": "2.5.4",
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "pydantic": "2.14.1"
+  },
+  "started_utc": "2026-10-22T09:09:13.624593+00:00",
+  "protocol_sha256": "78dcee97167ebf614d0b33cd817a0e8cf90861027e15d14ba6e6b0bf67044413"
+}

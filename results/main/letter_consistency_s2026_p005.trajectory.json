@@ -1,0 +1,15 @@
+{
+  "query": "AREFY\nREVIE\nIGALA\nSEDER\nETERN\nARISE\nREGET\nEVADE\nFILER\nYEARN",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

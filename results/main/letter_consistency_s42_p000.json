@@ -1,0 +1,70 @@
+{
+  "condition": "letter_consistency",
+  "seed": 42,
+  "puzzle_id": 0,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AGEND",
+    "MOTOR",
+    "ARTSY",
+    "SALLE",
+    "SLEER",
+    "AMASS",
+    "GORAL",
+    "ETTLE",
+    "NOSLE",
+    "DRYER"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "action": "h1. apple",
+      "next_state": "Current Board:\nAPPLE\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: A____\nv2. An Indian antelope: P____\nv3. To intend; to plan; to devise; a nettle; to guess: P____\nv4. A nozzle: L____\nv5. Desiccator; more dry: E____\n\nFilled:\nh1. An agendum; something to be done: APPLE\n\nChanged:\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h2. An engine: SMOTE"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 2,
+  "n_calls": 6,
+  "input_tokens": 2133,
+  "output_tokens": 42,
+  "inference_seconds": 2.398755583446473,
+  "episode_seconds": 2.4009284167550504,
+  "invalid_proposals": 5,
+  "letter_conflicts": 0,
+  "valid_proposals": 1,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:46.807232+00:00"
+}

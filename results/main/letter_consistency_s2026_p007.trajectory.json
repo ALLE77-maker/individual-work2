@@ -1,0 +1,15 @@
+{
+  "query": "AVERT\nVINER\nINULA\nSARIN\nELECT\nAVISE\nVINAL\nENURE\nRELIC\nTRANT",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. To avoid; to turn away: awayards"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

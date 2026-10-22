@@ -1,0 +1,65 @@
+{
+  "condition": "letter_consistency",
+  "seed": 2026,
+  "puzzle_id": 1,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AGEND",
+    "WIRER",
+    "AMOVE",
+    "RISEN",
+    "EXERT",
+    "AWARE",
+    "GIMIX",
+    "EROSE",
+    "NEVER",
+    "DRENT"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "v4. Not ever: v4. down"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. One who wires: _____\nh3. To stir up; to remove from office: _____\nh4. Ascended; awakened: _____\nh5. To put into action: _____\nv1. Mindful; conscious: _____\nv2. A gadget: _____\nv3. Notched or uneven, as if gnawed away (cognate with \"erode\"): _____\nv4. Not ever: _____\nv5. Drenched; drowned: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 1,
+  "n_calls": 3,
+  "input_tokens": 1068,
+  "output_tokens": 22,
+  "inference_seconds": 1.2518536243587732,
+  "episode_seconds": 1.2533359578810632,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 0,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:10:22.982830+00:00"
+}
