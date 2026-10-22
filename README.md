@@ -16,8 +16,6 @@ Read `PROTOCOL_STATE_FIX.md` for the follow-up designed after those outcomes. It
 
 - `deliverables/Reproducibility_Report.pdf`: report of at most ten pages.
 - `deliverables/Reproducibility_Report.md`: editable report source.
-- `deliverables/Reproducibility_Presentation.pptx`: editable slides with speaker notes.
-- `deliverables/Presentation_Script.md`: English narration for a presentation below 15 minutes.
 - `results/main/`: 60 measured episodes, all calls including retries, configurations and audit outputs.
 - `results/main/trial_metrics.csv`: six trial-level summaries.
 - `references/model_manifest.json`: model revision and asset hashes.
@@ -25,6 +23,8 @@ Read `PROTOCOL_STATE_FIX.md` for the follow-up designed after those outcomes. It
 - `patches/preserve_terminal_snapshot.patch`: the isolated state-accessor correction, verified against the pinned source.
 - `results/state_fix/`: paired offline replay and deterministic software sanity control, separate from live LLM results.
 - `scripts/`: setup, downloads, experiment, independent analysis and hand-checked scoring tests.
+
+The optional slide deck and English speaking script are provided in the local preparation package. They are not required repository uploads. The required presentation deliverable is the student's Zoom recording link.
 
 ## Environment and installation
 
@@ -83,7 +83,7 @@ Mean, sample standard deviation and sample variance refer to three seed-level av
 
 ## Report and presentation
 
-The PDF and slide deck are prepared from audited measurements. The report builder requires ReportLab. Slide source uses the Codex bundled Artifact Tool and resides in `presentation_source/build_deck.mjs`; the distributed PPTX remains editable without that authoring environment.
+The PDF and slide deck are prepared from audited measurements. The report builder requires ReportLab. Slide source uses the Codex bundled Artifact Tool and resides in `presentation_source/build_deck.mjs`; the optional local PPTX remains editable without that authoring environment.
 
 ```sh
 python -m pip install reportlab

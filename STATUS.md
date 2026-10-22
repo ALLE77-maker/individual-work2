@@ -9,7 +9,7 @@ Author: WU Yile (1155269932). Course: FTEC5660. Language: English.
 - Independent evaluation and deterministic software tests pass.
 - Report: 8 pages. Slides: 10, with editable chart/table evidence and speaker notes.
 - English presentation script included.
-- Private GitHub repository created: https://github.com/ALLE77-maker/individual-work2. Content upload is being verified.
+- Private GitHub repository created: https://github.com/ALLE77-maker/individual-work2. Required code, evidence and report are organized in the repository. Optional slide files and the speaking script remain in the local preparation package.
 - Student must personally record the Zoom presentation and provide its link.
 
 No source material under the project sources/ directory was modified.
