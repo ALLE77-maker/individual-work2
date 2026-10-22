@@ -1,0 +1,15 @@
+.venv/
+models/
+vendor/
+.build/
+.codex-finalizer/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.DS_Store
+results/pilot/
+references/lits_paper.pdf
