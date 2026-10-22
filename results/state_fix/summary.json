@@ -1,0 +1,181 @@
+{
+  "design": "paired offline replay, no new model calls",
+  "episodes": 30,
+  "changed_board_episodes": 8,
+  "episodes_with_observed_placements": 8,
+  "terminal_error_episodes": 30,
+  "metrics": {
+    "original_word_accuracy": {
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "sample_variance": 0.0,
+      "trial_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_word_accuracy": {
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "sample_variance": 0.0,
+      "trial_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_character_accuracy": {
+      "mean": 0.0,
+      "sample_sd": 0.0,
+      "sample_variance": 0.0,
+      "trial_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fixed_character_accuracy": {
+      "mean": 0.017333333333333333,
+      "sample_sd": 0.00832666399786453,
+      "sample_variance": 6.933333333333334e-05,
+      "trial_values": [
+        0.024,
+        0.02,
+        0.008
+      ]
+    },
+    "original_exact_match": {
+      "mean": 0,
+      "sample_sd": 0.0,
+      "sample_variance": 0,
+      "trial_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed_exact_match": {
+      "mean": 0,
+      "sample_sd": 0.0,
+      "sample_variance": 0,
+      "trial_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "original_retains_last_observed": {
+      "mean": 0.7333333333333333,
+      "sample_sd": 0.1527525231651947,
+      "sample_variance": 0.02333333333333334,
+      "trial_values": [
+        0.7,
+        0.6,
+        0.9
+      ]
+    },
+    "fixed_retains_last_observed": {
+      "mean": 1,
+      "sample_sd": 0.0,
+      "sample_variance": 0,
+      "trial_values": [
+        1,
+        1,
+        1
+      ]
+    },
+    "terminal_error": {
+      "mean": 1,
+      "sample_sd": 0.0,
+      "sample_variance": 0,
+      "trial_values": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "trials": [
+    {
+      "seed": 17,
+      "original_word_accuracy": 0.0,
+      "fixed_word_accuracy": 0.0,
+      "original_character_accuracy": 0.0,
+      "fixed_character_accuracy": 0.024,
+      "original_exact_match": 0,
+      "fixed_exact_match": 0,
+      "original_retains_last_observed": 0.7,
+      "fixed_retains_last_observed": 1,
+      "terminal_error": 1
+    },
+    {
+      "seed": 42,
+      "original_word_accuracy": 0.0,
+      "fixed_word_accuracy": 0.0,
+      "original_character_accuracy": 0.0,
+      "fixed_character_accuracy": 0.02,
+      "original_exact_match": 0,
+      "fixed_exact_match": 0,
+      "original_retains_last_observed": 0.6,
+      "fixed_retains_last_observed": 1,
+      "terminal_error": 1
+    },
+    {
+      "seed": 2026,
+      "original_word_accuracy": 0.0,
+      "fixed_word_accuracy": 0.0,
+      "original_character_accuracy": 0.0,
+      "fixed_character_accuracy": 0.008,
+      "original_exact_match": 0,
+      "fixed_exact_match": 0,
+      "original_retains_last_observed": 0.9,
+      "fixed_retains_last_observed": 1,
+      "terminal_error": 1
+    }
+  ],
+  "illustrative_pair": {
+    "seed": 17,
+    "puzzle_id": 6,
+    "valid_transition_steps": 4,
+    "has_observed_placement": true,
+    "original_retains_last_observed": false,
+    "fixed_retains_last_observed": true,
+    "original_word_accuracy": 0.0,
+    "fixed_word_accuracy": 0.0,
+    "original_character_accuracy": 0.0,
+    "fixed_character_accuracy": 0.08,
+    "original_exact_match": 0,
+    "fixed_exact_match": 0,
+    "original_final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+    "fixed_final_state": "Current Board:\nCARVD\nAPPLE\nR____\nV____\nDWELL\n\nUnfilled:\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: AP__W\nv3. To run away together to get married: RP__E\nv4. One who fumes: VL__L\nv5. To crave: DE__L\n\nFilled:\nh1. To dry up: CARVD\nh2. Worth; usefulness; desirability: APPLE\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n",
+    "terminal_error": true,
+    "n_calls_unchanged": 13,
+    "ground_truth_rows": [
+      "AREFY",
+      "VALUE",
+      "ABOMA",
+      "LOPER",
+      "ETERN"
+    ],
+    "source": "results/main/baseline_s17_p006.json",
+    "source_sha256": "199ea19f7149ef289fcc6b4595667fa227e06b841c0f10c139e24a32f6652c4e"
+  },
+  "sanity_control": {
+    "type": "deterministic software test, not LLM performance",
+    "puzzle_id": 10,
+    "known_answer_row_placements": 5,
+    "word_accuracy_before_synthetic_error": 1.0,
+    "original_accessor_after_synthetic_error": 0.0,
+    "fixed_accessor_after_synthetic_error": 1.0,
+    "error_flag_preserved": true,
+    "empty_history_fallback_passes": true
+  },
+  "new_llm_calls": 0,
+  "protocol_sha256": "78ea25287d279d3135fb311ef6cd2fc49dca2febccb0763a39f419e29eff6401",
+  "audit": {
+    "identical_recorded_steps": true,
+    "all_fixed_accessors_match_last_observation": true,
+    "terminal_error_flags_preserved": true
+  }
+}
