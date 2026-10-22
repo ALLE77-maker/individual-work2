@@ -1,0 +1,20 @@
+{
+  "query": "AREFY\nVALUE\nABOMA\nLOPER\nETERN\nAVALE\nRABOT\nELOPE\nFUMER\nYEARN",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "v1. carve",
+        "next_state": "Current Board:\nC____\nA____\nR____\nV____\nE____\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nh5. Eternal, everlasting: E____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\nv1. To let fall: CARVE\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. Worth; usefulness; desirability: WORTH"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

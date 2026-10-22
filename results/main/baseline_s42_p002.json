@@ -1,0 +1,65 @@
+{
+  "condition": "baseline",
+  "seed": 42,
+  "puzzle_id": 2,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AMIGO",
+    "MAMOU",
+    "INPUT",
+    "SIEGE",
+    "HALER",
+    "AMISH",
+    "MANIA",
+    "IMPEL",
+    "GOUGE",
+    "OUTER"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h1. brother"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. Something big and important: _____\nh3. Things that enter; data given to a computer program: _____\nh4. To besiege: _____\nh5. More healthy; a coin: _____\nv1. A Mennonite sect, named for Jacob Ammann: _____\nv2. A craze: _____\nv3. To force; to drive: _____\nv4. To dig out roughly: _____\nv5. On the outside: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 1,
+  "n_calls": 3,
+  "input_tokens": 900,
+  "output_tokens": 15,
+  "inference_seconds": 1.0084954593330622,
+  "episode_seconds": 1.0097523746080697,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 0,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:53.948362+00:00"
+}

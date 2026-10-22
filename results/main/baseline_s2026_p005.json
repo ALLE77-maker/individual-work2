@@ -1,0 +1,65 @@
+{
+  "condition": "baseline",
+  "seed": 2026,
+  "puzzle_id": 5,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AREFY",
+    "REVIE",
+    "IGALA",
+    "SEDER",
+    "ETERN",
+    "ARISE",
+    "REGET",
+    "EVADE",
+    "FILER",
+    "YEARN"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h1. dry up"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. To outdo; to bandy words: _____\nh3. A Yoruba-speaking people: _____\nh4. A Passover meal: _____\nh5. Eternal, everlasting: _____\nv1. To ascend; to get up; to come up: _____\nv2. To regain: _____\nv3. To elude: _____\nv4. One who files: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 1,
+  "n_calls": 3,
+  "input_tokens": 879,
+  "output_tokens": 18,
+  "inference_seconds": 1.0496054170653224,
+  "episode_seconds": 1.0511284158565104,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 0,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:10:30.878106+00:00"
+}

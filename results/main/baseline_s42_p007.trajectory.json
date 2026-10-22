@@ -1,0 +1,25 @@
+{
+  "query": "AVERT\nVINER\nINULA\nSARIN\nELECT\nAVISE\nVINAL\nENURE\nRELIC\nTRANT",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. avoid",
+        "next_state": "Current Board:\nAVOID\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: A____\nv2. A synthetic textile fiber: V____\nv3. To inure; to harden: O____\nv4. A memento; a souvenir: I____\nv5. To hawk; to peddle; odd jobs: D____\n\nFilled:\nh1. To avoid; to turn away: AVOID\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "action": "h2. dehvi",
+        "next_state": "Current Board:\nAVOID\nDEHVI\n_____\n_____\n_____\n\nUnfilled:\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: AD___\nv2. A synthetic textile fiber: VE___\nv3. To inure; to harden: OH___\nv4. A memento; a souvenir: IV___\nv5. To hawk; to peddle; odd jobs: DI___\n\nFilled:\nh1. To avoid; to turn away: AVOID\nh2. A machine to separate peas from their pods and the pea vine: DEHVI\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h3. Helope"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To avoid; to turn away: _____\nh2. A machine to separate peas from their pods and the pea vine: _____\nh3. An herb, the elecampane plant: _____\nh4. A nerve gas: _____\nh5. To choose; a person chosen or destined to go to Heaven: _____\nv1. To advise: _____\nv2. A synthetic textile fiber: _____\nv3. To inure; to harden: _____\nv4. A memento; a souvenir: _____\nv5. To hawk; to peddle; odd jobs: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

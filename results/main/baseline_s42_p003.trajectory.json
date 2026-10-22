@@ -1,0 +1,20 @@
+{
+  "query": "AMIGO\nVOLOW\nANION\nIDOSE\nLONER\nAVAIL\nMONDO\nILION\nGOOSE\nOWNER",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "action": "h1. buddy",
+        "next_state": "Current Board:\nBUDDY\n_____\n_____\n_____\n_____\n\nUnfilled:\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: B____\nv2. A Zen question and answer method; extreme: U____\nv3. Ancient Troy: D____\nv4. A water fowl; a pinch to the rear; tailor's iron: D____\nv5. A possesser: Y____\n\nFilled:\nh1. A male friend: BUDDY\n\nChanged:\n"
+      },
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h2. to baptize: baptize"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. A male friend: _____\nh2. To baptize: _____\nh3. A negative ion: _____\nh4. A sugar: _____\nh5. A solitary person: _____\nv1. Benefit; result: _____\nv2. A Zen question and answer method; extreme: _____\nv3. Ancient Troy: _____\nv4. A water fowl; a pinch to the rear; tailor's iron: _____\nv5. A possesser: _____\n\nFilled:\n\nChanged:\n"
+  }
+}

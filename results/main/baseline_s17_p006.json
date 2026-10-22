@@ -1,0 +1,85 @@
+{
+  "condition": "baseline",
+  "seed": 17,
+  "puzzle_id": 6,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AREFY",
+    "VALUE",
+    "ABOMA",
+    "LOPER",
+    "ETERN",
+    "AVALE",
+    "RABOT",
+    "ELOPE",
+    "FUMER",
+    "YEARN"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "action": "v1. carve",
+      "next_state": "Current Board:\nC____\nA____\nR____\nV____\nE____\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nh5. Eternal, everlasting: E____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\nv1. To let fall: CARVE\n\nChanged:\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "action": "h5. Dwell",
+      "next_state": "Current Board:\nC____\nA____\nR____\nV____\nDWELL\n\nUnfilled:\nh1. To dry up: C____\nh2. Worth; usefulness; desirability: A____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: ____W\nv3. To run away together to get married: ____E\nv4. One who fumes: ____L\nv5. To crave: ____L\n\nFilled:\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "action": "h2. apple",
+      "next_state": "Current Board:\nC____\nAPPLE\nR____\nV____\nDWELL\n\nUnfilled:\nh1. To dry up: C____\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: _P__W\nv3. To run away together to get married: _P__E\nv4. One who fumes: _L__L\nv5. To crave: _E__L\n\nFilled:\nh2. Worth; usefulness; desirability: APPLE\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "action": "h1. CARVD",
+      "next_state": "Current Board:\nCARVD\nAPPLE\nR____\nV____\nDWELL\n\nUnfilled:\nh3. A South American boa constrictor: R____\nh4. One who lopes: V____\nv2. A block for polishing marble or other rocks: AP__W\nv3. To run away together to get married: RP__E\nv4. One who fumes: VL__L\nv5. To crave: DE__L\n\nFilled:\nh1. To dry up: CARVD\nh2. Worth; usefulness; desirability: APPLE\nh5. Eternal, everlasting: DWELL\n\nChanged:\nv1. To let fall: CARVD\n"
+    },
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h3. anaconda"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 5,
+  "n_calls": 13,
+  "input_tokens": 4023,
+  "output_tokens": 88,
+  "inference_seconds": 4.723217957187444,
+  "episode_seconds": 4.728712915908545,
+  "invalid_proposals": 9,
+  "letter_conflicts": 1,
+  "valid_proposals": 4,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:33.517367+00:00"
+}

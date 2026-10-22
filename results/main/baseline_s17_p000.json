@@ -1,0 +1,65 @@
+{
+  "condition": "baseline",
+  "seed": 17,
+  "puzzle_id": 0,
+  "word_accuracy": 0.0,
+  "exact_match": 0,
+  "character_accuracy": 0.0,
+  "correct_words": 0,
+  "board": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "predicted_words": [
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____",
+    "_____"
+  ],
+  "ground_truth_words": [
+    "AGEND",
+    "MOTOR",
+    "ARTSY",
+    "SALLE",
+    "SLEER",
+    "AMASS",
+    "GORAL",
+    "ETTLE",
+    "NOSLE",
+    "DRYER"
+  ],
+  "official_goal_check": [
+    false,
+    0.0
+  ],
+  "steps": [
+    {
+      "__type__": "EnvStep",
+      "error": "Validation failed after 3 retries",
+      "terminate": true,
+      "action": "h1. agenda"
+    }
+  ],
+  "initial_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+  "final_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. An agendum; something to be done: _____\nh2. An engine: _____\nh3. Pretentious; flowery: _____\nh4. A salon; a hall: _____\nh5. To mock; to sneer: _____\nv1. To heap: _____\nv2. An Indian antelope: _____\nv3. To intend; to plan; to devise; a nettle; to guess: _____\nv4. A nozzle: _____\nv5. Desiccator; more dry: _____\n\nFilled:\n\nChanged:\n",
+  "n_steps": 1,
+  "n_calls": 3,
+  "input_tokens": 912,
+  "output_tokens": 15,
+  "inference_seconds": 0.9753214996308088,
+  "episode_seconds": 0.9766230001114309,
+  "invalid_proposals": 3,
+  "letter_conflicts": 0,
+  "valid_proposals": 0,
+  "terminal_error": true,
+  "finished_utc": "2026-10-22T09:09:16.111723+00:00"
+}

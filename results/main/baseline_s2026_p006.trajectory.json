@@ -1,0 +1,15 @@
+{
+  "query": "AREFY\nVALUE\nABOMA\nLOPER\nETERN\nAVALE\nRABOT\nELOPE\nFUMER\nYEARN",
+  "state": {
+    "__type__": "EnvState",
+    "steps": [
+      {
+        "__type__": "EnvStep",
+        "error": "Validation failed after 3 retries",
+        "terminate": true,
+        "action": "h1. dry up"
+      }
+    ],
+    "init_state": "Current Board:\n_____\n_____\n_____\n_____\n_____\n\nUnfilled:\nh1. To dry up: _____\nh2. Worth; usefulness; desirability: _____\nh3. A South American boa constrictor: _____\nh4. One who lopes: _____\nh5. Eternal, everlasting: _____\nv1. To let fall: _____\nv2. A block for polishing marble or other rocks: _____\nv3. To run away together to get married: _____\nv4. One who fumes: _____\nv5. To crave: _____\n\nFilled:\n\nChanged:\n"
+  }
+}
