@@ -1,0 +1,61 @@
+diff --git a/lits/agents/__init__.py b/lits/agents/__init__.py
+index 2da361e..b00925f 100644
+--- a/lits/agents/__init__.py
++++ b/lits/agents/__init__.py
+@@ -18,17 +18,25 @@ Usage:
+             ...
+ """
+ 
+-from lits.agents.registry import AgentRegistry, register_search
+-from lits.agents.chain.react import ReActChat, ReactChatConfig
+-from lits.agents.chain.env_chain import EnvChain, EnvChainConfig
+-from lits.agents.main import create_tool_use_agent, create_env_chain_agent
+-from lits.agents.tree.search_base import BaseTreeSearch, SearchResult
+-
+-# Import to trigger @register_search decorators for built-in algorithms
+-from lits.agents.tree.mcts import MCTSSearch, MCTSConfig, MCTSResult
+-from lits.agents.tree.mcts_sibling_aware import SiblingAwareMCTSSearch
+-from lits.agents.tree.bfs import BFSSearch, BFSConfig, BFSResult
+-from lits.agents.tree.bfs_sibling_aware import SiblingAwareBFSSearch
++def __getattr__(name):
++    # Local runtime adaptation for a chain-only experiment.
++    import importlib
++    sources = {
++        'AgentRegistry': 'registry', 'register_search': 'registry',
++        'ReActChat': 'chain.react', 'ReactChatConfig': 'chain.react',
++        'EnvChain': 'chain.env_chain', 'EnvChainConfig': 'chain.env_chain',
++        'create_tool_use_agent': 'main', 'create_env_chain_agent': 'main',
++        'BaseTreeSearch': 'tree.search_base', 'SearchResult': 'tree.search_base',
++        'MCTSSearch': 'tree.mcts', 'MCTSConfig': 'tree.mcts', 'MCTSResult': 'tree.mcts',
++        'BFSSearch': 'tree.bfs', 'BFSConfig': 'tree.bfs', 'BFSResult': 'tree.bfs',
++        'SiblingAwareMCTSSearch': 'tree.mcts_sibling_aware',
++        'SiblingAwareBFSSearch': 'tree.bfs_sibling_aware',
++    }
++    if name not in sources:
++        raise AttributeError(name)
++    value = getattr(importlib.import_module(f'{__name__}.{sources[name]}'), name)
++    globals()[name] = value
++    return value
+ 
+ __all__ = [
+     # Registry
+diff --git a/lits/components/__init__.py b/lits/components/__init__.py
+index a8c3814..4e0562f 100644
+--- a/lits/components/__init__.py
++++ b/lits/components/__init__.py
+@@ -8,8 +8,13 @@ This module provides the core components for building reasoning agents:
+ - Factory: Component creation utilities
+ """
+ 
+-from .context_augmentor import ContextAugmentor, ContextUnit, CriticAugmentor, SQLValidator, SQLErrorProfiler
+-from .factory import create_components, create_bn_evaluator
++def __getattr__(name):
++    # Local runtime adaptation: avoid importing unused training and memory backends.
++    import importlib
++    module = 'factory' if name in {'create_components', 'create_bn_evaluator'} else 'context_augmentor'
++    value = getattr(importlib.import_module(f'{__name__}.{module}'), name)
++    globals()[name] = value
++    return value
+ 
+ __all__ = [
+     "ContextAugmentor",

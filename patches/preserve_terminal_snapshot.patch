@@ -1,0 +1,15 @@
+diff --git a/lits/structures/env_grounded.py b/lits/structures/env_grounded.py
+--- a/lits/structures/env_grounded.py
++++ b/lits/structures/env_grounded.py
+@@ -62,8 +62,9 @@
+     
+     @property
+     def env_state(self) -> str:
+-        if len(self) > 0 and self[-1].next_state:
+-            return self[-1].next_state
++        for step in reversed(self):
++            if step.next_state:
++                return step.next_state
+         return self.init_state
+ 
+     @property
