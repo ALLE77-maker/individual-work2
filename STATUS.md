@@ -9,8 +9,8 @@ Author: WU Yile (1155269932). Course: FTEC5660. Language: English.
 - Independent evaluation and deterministic software tests pass.
 - Report: 8 pages. Original optional deck: 10 slides; revised local recording deck: 11 slides, with source-code evidence, editable chart/table evidence and speaker notes.
 - English presentation scripts are included locally, including a shorter version with Chinese page-turn cues.
-- GitHub repository: https://github.com/ALLE77-maker/individual-work2. Required code, evidence and report are organized in the repository. Optional slide files and the speaking script remain in the local preparation package.
+- Public GitHub repository: https://github.com/ALLE77-maker/individual-work2. Required code, evidence and report are organized in the repository. Optional slide files and the speaking script remain in the local preparation package.
 - The student reports that the Zoom presentation has been recorded. An accessible recording link still needs to be provided for final submission. The previously supplied local MP4 path was unavailable during the 2 November audit, so its duration and content have not been verified.
-- Repository access must be checked before submission; visibility changes require GitHub account verification.
+- Public visibility was verified in GitHub settings on 2 November 2026 after account verification.
 
 No source material under the project sources/ directory was modified.
