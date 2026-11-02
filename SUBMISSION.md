@@ -9,7 +9,7 @@ Course: FTEC5660
 4. Upload the recording to your chosen service and submit an accessible presentation link.
 5. Verify repository access before submitting its link. A public repository should open without signing in; a private repository requires instructor access.
 
-## Main findings to understand before recording
+## Key findings covered by the presentation
 - The live local-model study contains 60 real episodes and 227 calls, with zero paid API usage.
 - Both original and letter-consistency prompts yield zero final word accuracy. This does not reproduce the paper's numerical performance.
 - The debugging follow-up identifies a terminal error that makes the state accessor return the initial board.
