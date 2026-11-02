@@ -197,4 +197,4 @@ Run commands inside the documented environment from the repository root. The fir
 
 ## Assistance disclosure
 
-This submission package was prepared with AI assistance for code, experiment execution, analysis and writing. The included logs record actual local model calls. The student should review the code and conclusions, ensure the disclosure meets course policy, and personally deliver the recorded explanation.
+This submission package was prepared with AI assistance for code, experiment execution, analysis and writing. The included logs record actual local model calls.

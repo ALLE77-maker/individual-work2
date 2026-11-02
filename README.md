@@ -24,8 +24,6 @@ Read `PROTOCOL_STATE_FIX.md` for the follow-up designed after those outcomes. It
 - `results/state_fix/`: paired offline replay and deterministic software sanity control, separate from live LLM results.
 - `scripts/`: setup, downloads, experiment, independent analysis and hand-checked scoring tests.
 
-The optional slide deck and English speaking script are provided in the local preparation package. The latest recording preparation version has 11 slides with code evidence; the original authoring source below generates the earlier 10-slide version. Slides and scripts are not required repository uploads. The required presentation deliverable is the student's Zoom recording link. See `REQUIREMENTS_CHECK.md` for the assignment-to-evidence audit and remaining submission items.
-
 ## Environment and installation
 
 The measured setup uses Apple Silicon, 24 GiB memory and macOS 26.4. MLX provides local Metal inference. This runtime is not intended for Windows or a CUDA host. No API key or paid account is needed. Internet is needed for installation and public asset downloads, then inference runs offline. Model weights require about 1.74 GB. Do not add weights, virtual environments or credentials to Git.
@@ -77,13 +75,13 @@ python scripts/test_scoring.py
 python scripts/analyze_results.py
 ```
 
-The audit recomputes final word and character scores directly from the grid and original dataset. It checks all 60 episode scores, official goal-check agreement, call counts, token totals and dataset hashes. `evidence_manifest.json` records hashes for completed episode evidence. The checked live-study and state-fix summaries supply the numbers in the report and slides.
+The audit recomputes final word and character scores directly from the grid and original dataset. It checks all 60 episode scores, official goal-check agreement, call counts, token totals and dataset hashes. `evidence_manifest.json` records hashes for completed episode evidence. The checked live-study and state-fix summaries supply the numbers in the report.
 
 Mean, sample standard deviation and sample variance refer to three seed-level averages on the same ten puzzles. Repeated episodes do not create additional independent puzzle samples. Invalid proposal rate includes retries. Letter conflict rate uses valid proposals as its denominator. Local inference seconds exclude downloads, model loading and warm-up.
 
-## Report and presentation
+## Report
 
-The PDF and slide deck are prepared from audited measurements. The report builder requires ReportLab. The original 10-slide authoring source uses the Codex bundled Artifact Tool and resides in `presentation_source/build_deck.mjs`, with English content in `deliverables/slides_content.json`. It depends on the bundled authoring environment and is optional; it is not part of the install/run path for the experiment. The local PPTX can be edited without that authoring environment.
+The eight-page report is in `deliverables/Reproducibility_Report.pdf`, with editable Markdown alongside it. To regenerate the report from the audited summaries:
 
 ```sh
 python -m pip install reportlab
@@ -95,4 +93,4 @@ python scripts/build_report.py
 
 LiTS source code remains the authors' Apache-2.0 work, retrieved separately at the recorded revision. Dataset content is used from the same upstream repository. The model derives from [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct), using the [MLX community 4-bit distribution](https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit). Review the upstream model card and license for reuse terms.
 
-AI assistance supported code, experiment execution, analysis and writing. The logs reflect actual local inference. The student should review the package and deliver their own explanation. No API credentials belong in this repository.
+AI assistance supported code, experiment execution, analysis and writing. The logs reflect actual local inference. No API credentials belong in this repository.

@@ -1,4 +1,4 @@
-"""Build the English report and presentation script from audited measurements only."""
+"""Build the English report from audited measurements only."""
 from html import escape
 import json
 from pathlib import Path
@@ -213,7 +213,7 @@ p('[1] Xinzhe Li and Yaguang Tao. 2026. LiTS: A Modular Framework for LLM Tree S
 p('[2] LiTS authors. Source repository and included Crosswords benchmark. https://github.com/xinzhel/lits-llm. Exact revision recorded in config.json.',small=True)
 p('[3] Qwen Team. Qwen2.5-3B-Instruct. https://huggingface.co/Qwen/Qwen2.5-3B-Instruct. Local quantized distribution: https://huggingface.co/mlx-community/Qwen2.5-3B-Instruct-4bit. Exact revision and file hashes recorded in model_manifest.json.',small=True)
 heading('Assistance disclosure')
-p('This submission package was prepared with AI assistance for code, experiment execution, analysis and writing. The included logs record actual local model calls. The student should review the code and conclusions, ensure the disclosure meets course policy, and personally deliver the recorded explanation.',small=True)
+p('This submission package was prepared with AI assistance for code, experiment execution, analysis and writing. The included logs record actual local model calls.',small=True)
 
 def footer(canvas,doc):
     canvas.saveState()
@@ -228,15 +228,4 @@ doc=SimpleDocTemplate(str(OUT/'Reproducibility_Report.pdf'),pagesize=(595.28,841
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 (OUT/'Reproducibility_Report.md').write_text('\n'.join(markdown))
 
-# Presentation content remains editable, and every measured number comes from summary.json.
-from presentation_content import make_slides
-slides=make_slides(IDENTITY,S,C,F)
-for slide in slides:
-    slide['notes']+='\n\nSources: '+('https://aclanthology.org/2026.acl-demo.5/; ' if 'paper' in slide['notes'].lower() else '')+'results/main/config.json; results/main/summary.json.'
-(OUT/'slides_content.json').write_text(json.dumps(slides,indent=2))
-script=['# Presentation script',f"{IDENTITY['name']} / {IDENTITY['student_id']}",'Suggested recording length: 10-12 minutes. Read naturally and explain the code or one trajectory briefly. Do not read source URLs aloud.','']
-for i,slide in enumerate(slides,1):
-    script.extend([f"## Slide {i}: {slide['title']}",slide['notes'].split('\n\nSources:')[0],''])
-script.extend(['## Recording and submission','Record yourself presenting these slides in Zoom, keep the final video at or below 15 minutes, and submit an accessible recording link together with the report and repository link.',''])
-(OUT/'Presentation_Script.md').write_text('\n'.join(script))
-print('Built measured report, editable source, slide content and speaking script.')
+print('Built report and editable source from audited measurements.')

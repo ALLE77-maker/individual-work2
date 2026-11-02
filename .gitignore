@@ -15,3 +15,15 @@ results/pilot/
 references/lits_paper.pdf
 
 .chart-data-*/
+
+# Local preparation materials
+STATUS.md
+SUBMISSION.md
+VALIDATION.md
+REQUIREMENTS_CHECK.md
+presentation_source/
+scripts/presentation_content.py
+deliverables/*.pptx
+deliverables/Presentation_Script*.md
+deliverables/Presentation_Script*.txt
+deliverables/slides_content*.json
