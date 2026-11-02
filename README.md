@@ -90,7 +90,7 @@ python -m pip install reportlab
 python scripts/build_report.py
 ```
 
-The generated speaking script is designed for a short presentation, with room to demonstrate one saved trajectory. The student must personally record the Zoom presentation, keep it at or below 15 minutes, and submit a working recording link. A GitHub repository link is also required by the assignment.
+Recording status: the student has recorded the Zoom presentation. The accessible recording link has not yet been supplied for submission. The course requires a recording of at most 15 minutes, together with the PDF report and GitHub link. Recording duration and content have not been independently verified.
 
 ## Source and assistance
 
