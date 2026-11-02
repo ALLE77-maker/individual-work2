@@ -5,9 +5,9 @@ Course: FTEC5660
 
 1. Submit `deliverables/Reproducibility_Report.pdf` (8 pages).
 2. Submit the repository link: https://github.com/ALLE77-maker/individual-work2
-3. Record your own Zoom presentation using the 10-slide deck and English script. Keep it at or below 15 minutes.
+3. Check your recorded Zoom presentation. The revised local deck has 11 slides; the short English script has matching page-turn cues. Keep the video at or below 15 minutes.
 4. Upload the recording to your chosen service and submit an accessible presentation link.
-5. This repository is private. Give the instructor access before submitting its link, or change visibility deliberately if the course requires public access.
+5. Verify repository access before submitting its link. A public repository should open without signing in; a private repository requires instructor access.
 
 ## Main findings to understand before recording
 - The live local-model study contains 60 real episodes and 227 calls, with zero paid API usage.
@@ -19,7 +19,9 @@ Course: FTEC5660
 ## Recording outline
 Slides 1-2: project and reproduction boundary.
 Slides 3-5: the observed defect and isolated change.
-Slides 6-8: measured replay results and a saved trajectory.
-Slides 9-10: unsuccessful prompt experiment, limitations and lessons.
+Slides 6-7: measured replay results.
+Slide 8: source-code assertions that isolate the fix.
+Slide 9: a saved trajectory.
+Slides 10-11: unsuccessful prompt experiment, limitations and lessons.
 
 AI assistance supported the package. Review the code, numbers and conclusions before presenting.

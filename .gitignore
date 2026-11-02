@@ -13,3 +13,5 @@ __pycache__/
 .DS_Store
 results/pilot/
 references/lits_paper.pdf
+
+.chart-data-*/

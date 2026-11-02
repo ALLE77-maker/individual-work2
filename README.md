@@ -24,7 +24,7 @@ Read `PROTOCOL_STATE_FIX.md` for the follow-up designed after those outcomes. It
 - `results/state_fix/`: paired offline replay and deterministic software sanity control, separate from live LLM results.
 - `scripts/`: setup, downloads, experiment, independent analysis and hand-checked scoring tests.
 
-The optional slide deck and English speaking script are provided in the local preparation package. They are not required repository uploads. The required presentation deliverable is the student's Zoom recording link.
+The optional slide deck and English speaking script are provided in the local preparation package. The latest recording preparation version has 11 slides with code evidence; the original authoring source below generates the earlier 10-slide version. Slides and scripts are not required repository uploads. The required presentation deliverable is the student's Zoom recording link. See `REQUIREMENTS_CHECK.md` for the assignment-to-evidence audit and remaining submission items.
 
 ## Environment and installation
 
@@ -83,7 +83,7 @@ Mean, sample standard deviation and sample variance refer to three seed-level av
 
 ## Report and presentation
 
-The PDF and slide deck are prepared from audited measurements. The report builder requires ReportLab. Slide source uses the Codex bundled Artifact Tool and resides in `presentation_source/build_deck.mjs`; the optional local PPTX remains editable without that authoring environment.
+The PDF and slide deck are prepared from audited measurements. The report builder requires ReportLab. The original 10-slide authoring source uses the Codex bundled Artifact Tool and resides in `presentation_source/build_deck.mjs`, with English content in `deliverables/slides_content.json`. It depends on the bundled authoring environment and is optional; it is not part of the install/run path for the experiment. The local PPTX can be edited without that authoring environment.
 
 ```sh
 python -m pip install reportlab
