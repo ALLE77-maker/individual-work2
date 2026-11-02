@@ -90,7 +90,6 @@ python -m pip install reportlab
 python scripts/build_report.py
 ```
 
-Recording status: the student has recorded the Zoom presentation. The accessible recording link has not yet been supplied for submission. The course requires a recording of at most 15 minutes, together with the PDF report and GitHub link. Recording duration and content have not been independently verified.
 
 ## Source and assistance
 
